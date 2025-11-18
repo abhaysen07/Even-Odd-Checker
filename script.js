@@ -45,12 +45,12 @@ function checkEvenOdd() {
     if (number % 2 === 0)
     {
         // Create message for EVEN number
-        result = "The number " + number + " is Even.";
+        result = "The number " + number + " is Even. 🟩";
     }
     else
     {
         // Create message for ODD number
-        result = "The number " + number + " is Odd.";
+        result = "The number " + number + " is Odd .🟦";
     }
 
     /* 
