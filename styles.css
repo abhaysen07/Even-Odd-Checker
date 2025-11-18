@@ -1,5 +1,49 @@
-body{
-	display: block;
+/* 
+============================================================
+📄 FILE: styles.css
+📌 PROJECT: Even–Odd Logic Learning Page
+👨‍💻 AUTHOR: Abhishek Kumar (Owner & Developer)
+📅 CREATED: 2025
+📝 PURPOSE:
+    This stylesheet controls the visual layout and aesthetics
+    of the Even–Odd Checker project. The goal is to maintain a 
+    simple, beginner-friendly UI with clear readability and 
+    centered alignment. Aqua background is chosen because it’s 
+    calm, visually clean, and suitable for logic-learning pages.
+============================================================
+*/
+
+/* 
+------------------------------------------------------------
+🎯 SELECTOR: body
+📌 PURPOSE:
+    Applies global styling to the entire webpage.
+    Ensures the background, alignment, and layout style 
+    remain consistent across all elements.
+------------------------------------------------------------
+*/
+body {
+
+    /* 
+    📌 display: block;
+       Although <body> is block-level by default, this line 
+       explicitly sets it, ensuring consistency across browsers.
+    */
+    display: block;
+
+    /* 
+    📌 background-color: #7FFFD4;
+       Sets a fresh aquamarine background (#7FFFD4).
+       This color provides a soft contrast that enhances 
+       readability for beginners learning logic building.
+    */
     background-color: #7FFFD4;
+
+    /* 
+    📌 text-align: center;
+       Centers all inline content inside the body.
+       Helps align headings, text, and buttons neatly 
+       in the middle of the page.
+    */
     text-align: center;
 }
